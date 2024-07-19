@@ -2,8 +2,7 @@ class Solution:
     def findMaxValueOfEquation(self, points: List[List[int]], k: int) -> int:
         m=float('-inf')
         last=0
-        i=0
-        while(i<len(points)):
+        for i in range(len(points)):
             if(i>=last):
                 last=i+1
                 
@@ -16,7 +15,6 @@ class Solution:
                         last=j
                 else:
                     break
-            i+=1
         return m
     
     
