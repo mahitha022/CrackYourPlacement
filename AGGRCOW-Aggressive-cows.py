@@ -1,4 +1,5 @@
 # your code goes here
+# your code goes here
 def check(mid):
 	cow=l[0]
 	count=1
@@ -33,4 +34,5 @@ for _ in range(int(input())):
 	l=[]
 	for __ in range(n):
 		l.append(int(input()))
+	l.sort()
 	print(binary(l,c))
