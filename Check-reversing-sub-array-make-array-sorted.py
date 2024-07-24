@@ -21,7 +21,6 @@ def check(arr):
     return True
     
 
-
 arr=[1,2,5,4,3]
 n=len(arr)
 print(check(arr))
