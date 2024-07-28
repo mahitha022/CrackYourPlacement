@@ -34,6 +34,5 @@ class Solution:
                 l2=l2.next
         if(carry):
             t.next=ListNode(carry)
-            t=t.next
             
         return op.next
