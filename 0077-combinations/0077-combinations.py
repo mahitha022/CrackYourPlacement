@@ -9,9 +9,8 @@ class Solution:
                 return
             
             back(i+1,sub,k)  #not including
-            sub.append(i+1)
-            back(i+1,sub,k-1)   #including
-            sub.pop()
+            
+            back(i+1,sub+[i+1],k-1)   #including
 
             
         res=[]
